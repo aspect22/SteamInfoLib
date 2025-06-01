@@ -8,11 +8,6 @@ void main()
 
 	Dota2 = SteamInfoLib::getInfoByAppID(570); // Get information for Dota 2 (AppID 570)
 
-	if (Dota2.name.empty()) // Check if the game information was retrieved successfully
-	{
-		return;
-	}
-
 	// Display the game information
 	std::cout << "Name: \t\t" << Dota2.name << std::endl;
 	std::cout << "Release Date: \t" << Dota2.releaseDate << std::endl;
