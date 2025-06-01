@@ -1,4 +1,5 @@
 # SteamInfoLib
+C++ Libary,
 Grab game information with appID from Steam games.
 
 # Usage
