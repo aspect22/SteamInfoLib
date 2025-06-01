@@ -3,10 +3,11 @@ Grab game information with appID from Steam games.
 
 # Usage
 Make sure you have **curl.h** and **nlohmann/json.hpp** linked to your Project with VCPKG with CMake or whatever you want to use.
-To install these please refer to these or search for them yourself.
-[Tutorial: Install and use packages with CMake in Visual Studio](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started-vs)
+To install these please refer to these or search for them yourself.    
+[Tutorial: Install and use packages with CMake in Visual Studio](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started-vs)     
 [Tutorial: Install and use packages with CMake in Visual Studio Code](https://learn.microsoft.com/en-us/vcpkg/get_started/get-started-vscode)
 
+Download the whole example or just the .h and .cpp file from [Releases](https://github.com/aspect22/SteamInfoLib/releases)     
 Include **SteamInfoLib.h** and **SteamInfoLib.cpp** into your project.
 ```CPP
 #include "SteamInfoLib.h"
